@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>SURVEY_FORM</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link  id="inputstyle" rel="stylesheet" href=https://fonts.google.com/specimen/Lobster">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <link href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+  <script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+  <script src="//code.jquery.com/jquery-2.1.3.min.js"></script>  
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <title>SURVEY FORM</title>
+
+</head>
+<body>
+<div id="root"></div>
+         
+<section class="container-fluid">
+  <section class="row justify-content-center">
+    <section class="col-12 col-xs-7 col-md-5">
+      <div class="bg-img">
+    <form class="form-horizontal" role="form">
+        <div class="image">   
+<!--       <img id="image1" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRkoh-T3F9TWARX_Vjay4FQJLQqaRlrROuVcg&usqp=CAU" alt="amazon image"/>
+ -->      <img id ="image2" src= "https://www.fintechfutures.com/files/2018/01/amazon-2.png" alt="" /> 
+      <img id="image3" src="https://www.ecommercebytes.com/blog/uploads/Amazon_Box_2017_12_06.jpg" alt=""/>
+<!-- <img id="image3" src="https://m.media-amazon.com/images/G/01/sell/images/prime-boxes/prime-boxes-2.png" alt="" />
+ -->   </div> 
+  <!--  <header>
+    <h5 >Please let us know about your experience with our product abd service. </h5>
+
+    <h3>Read more on
+      <a id="website-link" target="_blank" href="	https://en.wikipedia.org/wiki/Amazon_(company)">
+        Wikipedia entry </a>
+    </h3>
+   </header>
+ -->
+ <div class="row">
+ <p ><u>Please let us know about your experience with our product & service. </u></p>
+</div>
+<div class="row">
+      <h4 class= "text-center"> <u>SURVEY FORM </u> </h4>
+</div>
+
+ 
+
+      <div class="form-group">
+        <label for="radio-1" id="labelstyle" class="col-sm-6 control-label">How often do you shop for products online?</label>
+    
+        <div class="col-sm-6">
+          <ol>
+            <li>
+              <input type="radio" id="f-option" name="selector">
+              <label for="f-option">Once  a week</label>
+              
+              <div class="check"></div>
+            </li>
+            
+            <li>
+              <input type="radio" id="s-option" name="selector">
+              <label for="s-option">Once  a Month</label>
+              
+              <div class="check"><div class="inside"></div></div> 
+            </li>
+            
+            <li>
+              <input type="radio" id="t-option" name="selector">
+              <label for="t-option">Once  a year</label>
+              
+              <div class="check"><div class="inside"></div></div>
+            </li>
+          </ol>
+       </div>
+      </div>
+
+
+
+      <div class="form-group">
+        <label for="radio-1" id="labelstyle" class="col-sm-6 control-label">What is most important to you when shopping online?</label>
+        <div  class=" col-sm-6"  >
+       <select  class="inputstyle"><!-- class="inputstyle" id="custom-select"  -->
+        <option value=""></option>
+         <option value="Speed">Speed</option>
+         <option value="Ease of use & Reliability">Ease of use & Reliability</option>
+         <option value="Price ">Price & Free Shiping</option>
+         <option value=" Free Shiping"> Free Shiping</option>
+
+
+       </select>
+        </div>
+      </div>
+   
+    <div class="form-group shadow-textarea">
+      <label for="exampleFormControlTextarea" id="labelstyle" class="col-sm-6 control-label">How long have you been using this product and why?</label>
+      <div class="col-sm-6">
+        <textarea  class="inputstyle" id="exampleFormControlTextarea" rows="1" placeholder="Write something here..."></textarea>
+      </div>
+    </div>
+
+    
+  <div class="form-group shadow-textarea">
+    <label for="exampleFormControlTextarea" id="labelstyle" class="col-sm-6 control-label">Are you satisfied with our product performance? share your opinions </label>
+    <div class="col-sm-6">
+      <textarea class="inputstyle" id="exampleFormControlTextarea" rows="1" placeholder="Write something here..."></textarea>
+    </div>
+</div>
+<div class="form-group shadow-textarea">
+  <label for="exampleFormControlTextarea" id="labelstyle" class="col-sm-6 control-label">  Tell us something about your shopping experiences to buy our product</label>
+  <div class="col-sm-6">
+    <textarea class="inputstyle" id="exampleFormControlTextarea" rows="1" placeholder="Write something here..."></textarea>
+  </div>
+</div>
+
+       <div class="form-group">
+          <div class="col-sm-6 col-sm-offset-6" id="quotes">
+            <span class="help-block" style="color:black">Thank you for completing this survey!</span>
+       </div>
+      </div> 
+    
+
+  <div style="text-align:center;"> 
+          <input type="done"  id="btn-info"class="button btn btn-info" value="Done"/>
+    </div>
+    </form>
+  </div>
+    </section>
+    </section>
+    </section>
+ 
+</body>
+</html>
